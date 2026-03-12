@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CourseManager
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
         /// Главная точка входа для приложения.
@@ -16,7 +16,7 @@ namespace CourseManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new CourseManagementForm());
         }
     }
 }
